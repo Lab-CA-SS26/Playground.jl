@@ -9,6 +9,6 @@ end
 
 @testset "double" begin
     @test double(1) == 2
-    @test double(0) == 0
+    @test double(2) == 4
     @test double(-2) == -4
 end
